@@ -15,3 +15,8 @@ while a<=10:
     print(" ")
     a+=1
 
+s = input("s=")
+r = ""
+for c in s:
+    r = c+r
+print(r)
